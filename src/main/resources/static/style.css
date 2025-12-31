@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-image: url("./image/background1.png");
+    background-size: cover;          /* fills full screen */
+    background-position: center;     /* keeps center focus */
+    background-repeat: no-repeat;    /* stops repeating */
+    background-attachment: fixed;    /* optional: parallax effect */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 380px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.container h2 {
+    color: #ff5722;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Speak Order */
+button:first-of-type {
+    background: #2196f3;
+    color: white;
+}
+
+/* Speak Address */
+#addressBtn {
+    background:  #2196f3;
+    color: white;
+}
+
+#addressBtn:disabled {
+    background:  #2196f3;
+    cursor: not-allowed;
+}
+
+/* Admin Button */
+.admin-btn {
+    background: #2196f3;
+    color: white;
+}
+
+button:hover:not(:disabled) {
+    opacity: 0.9;
+}
+
+p#text {
+    margin-top: 18px;
+    font-weight: 600;
+    color: #444;
+    min-height: 22px;
+}
+
+#result {
+    margin-top: 15px;
+    padding: 12px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #222;
+    min-height: 50px;
+}
+.header{
+
+  a{font-weight: bold;
+  color:#f4f4f4;
+ position: fixed;
+ top: 10px;
+ left: 1100px;
+ text-font: italic;
+  text-decoration: none;
+   font-size: 25px;
+  }
+p{
+font-weight: bold;
+  color: #998d8d;
+ position: fixed;
+ top: 40px;
+ left: 400px;
+ text-font: italic;
+  text-decoration: none;
+   font-size: 25px;
+ }
+
+ }
+  }

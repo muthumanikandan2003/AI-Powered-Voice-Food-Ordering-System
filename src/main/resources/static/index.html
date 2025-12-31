@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Voice Food Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <a href="https://www.linkedin.com/in/muthumanikandan2003">Contect</a>
+    <p>Order food the smart way — just speak</p>
+</header>
+<div class="container">
+    <h2>🎤 Voice Food Ordering</h2>
+    <button class="admin-btn" onclick="location.href='admin-login.html'">
+        Admin Login
+    </button>
+    <button onclick="startOrderVoice()">🎙 Speak Order</button>
+    <button id="addressBtn" onclick="startAddressVoice()" disabled>
+        📍 Speak Address
+    </button>
+
+
+
+    <p id="text"></p>
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
